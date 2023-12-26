@@ -1,0 +1,68 @@
+* {
+    margin: 0px;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: rgb(245, 245, 245);
+    font-size: 18px;
+}
+
+header {
+    height: 70px;
+    background-color: #232323;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+img {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.biography {
+    margin-left: 250px;
+    margin-right: 250px;
+    display: flex;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.biographytext {
+    color: rgb(60, 60, 60);
+    margin-left: 20px;
+}
+
+.skills {
+    border-radius: 10px;
+    background-color: rgba(255, 255, 0, 0.8);
+    color: black;
+    padding: 10px;
+    margin-top: 20px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    height: 42px;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-top: 20px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+}
+footer p{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.conimg{
+    margin-left: 400px;
+}

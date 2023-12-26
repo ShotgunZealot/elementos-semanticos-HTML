@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(218, 218, 218);
+    font-size: 18px;
+}
+header{
+    display: flex;
+    background-color: rgb(164, 164, 164);
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    color: white;
+}
+.main-content{
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    height: 400px;
+}
+.additional-content{
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: rgb(193, 193, 193);
+    padding: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    height: 130px;
+
+}

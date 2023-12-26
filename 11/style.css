@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+}
+body{
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+}
+article{
+    background-color: rgb(20,20,20);
+    padding-bottom: 20px;
+}
+header{
+
+    background-color: rgb(45, 45, 45);
+    height: 80px;
+}
+h1{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    padding: 20px;
+    height: 600px;
+    background-color: rgb(30, 30, 30);
+}
+footer{
+    font-style: italic;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(20,20,20);
+    padding-bottom: 5px;
+    border-bottom: 3px solid white;
+}

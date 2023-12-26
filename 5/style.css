@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+}
+body{
+    font-size: 18px;
+    background-color: gray;
+}
+h1{
+    background-color: red;
+    color: white;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: white;
+    padding: 30px;
+    height: 606px;
+}
+p{
+    margin-bottom: 20px;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 320px;
+    margin-right: 320px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    background-color: rgb(216, 0, 0);
+    margin-bottom: 20px;
+    position: relative;
+}
+.texto{
+    left: 50%;
+    top: 1%;
+    position: absolute;
+    transform: translateX(-50%);
+    color: white;
+}
